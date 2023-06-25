@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/styles.css" />
+
+    <script src="./src/js/app.js" defer></script>
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <header>
+      <div class="banner"></div>
+      <nav class="navigation-bar">
+        <div class="logo">
+          <img src="./src/images/logo.svg" alt="snap" class="logo__img" />
+        </div>
+        <div class="nav-wrapper">
+          <ul class="nav-list">
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link"
+                >Features
+                <img
+                  src="./src/images/icon-arrow-down.svg"
+                  alt="arrow down icon"
+                  class="arrow arrow-down"
+                />
+                <img
+                  src="./src/images/icon-arrow-up.svg"
+                  alt="arrow up icon"
+                  class="arrow arrow-up"
+                />
+              </a>
+              <ul class="nav-sublist first-sublist">
+                <li class="nav-sublist__item">
+                  <a href="#" class="nav-sublist__link">
+                    <img
+                      src="./src/images/icon-todo.svg"
+                      alt="todo list icon"
+                      class="nav-icon"
+                    />Todo List</a
+                  >
+                </li>
+                <li class="nav-sublist__item">
+                  <a href="#" class="nav-sublist__link">
+                    <img
+                      src="./src/images/icon-calendar.svg"
+                      alt="calender icon"
+                      class="nav-icon"
+                    />Calenders
+                  </a>
+                </li>
+                <li class="nav-sublist__item">
+                  <a href="#" class="nav-sublist__link">
+                    <img
+                      src="./src/images/icon-reminders.svg"
+                      alt="reminders icon"
+                      class="nav-icon"
+                    />Reminders
+                  </a>
+                </li>
+                <li class="nav-sublist__item">
+                  <a href="#" class="nav-sublist__link">
+                    <img
+                      src="./src/images/icon-planning.svg"
+                      alt="planning icon"
+                      class="nav-icon"
+                    />Planning
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link"
+                >Company
+                <img
+                  src="./src/images/icon-arrow-down.svg"
+                  alt="arrow down icon"
+                  class="arrow arrow-down"
+                />
+                <img
+                  src="./src/images/icon-arrow-up.svg"
+                  alt="arrow up icon"
+                  class="arrow arrow-up"
+                />
+              </a>
+              <ul class="nav-sublist second-sublist">
+                <li class="nav-sublist__item">
+                  <a href="#" class="nav-sublist__link">History</a>
+                </li>
+                <li class="nav-sublist__item">
+                  <a href="#" class="nav-sublist__link">Our Team</a>
+                </li>
+                <li class="nav-sublist__item">
+                  <a href="#" class="nav-sublist__link">Blog</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">Careers</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">About</a>
+            </li>
+          </ul>
+          <div class="authenticate">
+            <div class="authenticate__login">Login</div>
+            <div class="authenticate__register">Register</div>
+          </div>
+          <div class="close">
+            <img src="./src/images/icon-close-menu.svg" alt="close menu icon" />
+          </div>
+        </div>
+        <div class="hamburger">
+          <img src="./src/images/icon-menu.svg" alt="hamburger icon" />
+        </div>
+      </nav>
+      <div class="hero">
+        <div class="container">
+          <div class="hero__text">
+            <h1 class="hero__title">Make <span>remote work</span></h1>
+            <p class="hero__description">
+              Get your team in sync, no matter your location. Streamline
+              processes, create team rituals, and watch productivity soar.
+            </p>
+            <button class="hero__btn">Learn more</button>
+            <div class="hero__sponsors">
+              <img
+                src="./src/images/client-databiz.svg"
+                alt="client-databiz"
+                class="hero__sponsor-image"
+              />
+              <img
+                src="./src/images/client-audiophile.svg"
+                alt="client-audiophile"
+                class="hero__sponsor-image"
+              />
+              <img
+                src="./src/images/client-meet.svg"
+                alt="client-meet"
+                class="hero__sponsor-image"
+              />
+              <img
+                src="./src/images/client-maker.svg"
+                alt="client-maker"
+                class="hero__sponsor-image"
+              />
+            </div>
+          </div>
+          <div class="hero__img"></div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
